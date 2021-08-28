@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="gcj_zgb_test" uuid="7fe3ea33-7e38-45e1-90bd-2e8c0125e7d0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://123.60.37.212:3306/gcj_zgb_test</jdbc-url>
+    </data-source>
+  </component>
+</project>
