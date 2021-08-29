@@ -6,4 +6,7 @@
     <select id="getAgent_rims" resultType="Agent_rim">
         select * from agent_rim
     </select>
+    <update id="updateAgent_rim" parameterType="string">
+        update agent_rim set agent_pwd=#{agent_pwd} where agent_no=#{agent_no}
+    </update>
 </mapper>

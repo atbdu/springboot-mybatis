@@ -16,4 +16,10 @@ public class Agent_rimServiceImpl implements Agent_rimService {
         List<Agent_rim> list = agent_rimMapper.getAgent_rims();
         return list;
     }
+
+    @Override
+    public int updateAgent_rim(String agent_pwd, String agent_no) {
+        int flag = agent_rimMapper.updateAgent_rim(agent_pwd, agent_no);
+        return flag;
+    }
 }

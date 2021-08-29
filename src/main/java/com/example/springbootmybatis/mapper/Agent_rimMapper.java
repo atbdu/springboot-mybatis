@@ -10,4 +10,6 @@ import java.util.List;
 @Repository
 public interface Agent_rimMapper {
     public List<Agent_rim> getAgent_rims();
+    //更新
+    public int updateAgent_rim(String agent_pwd,String agent_no);
 }
